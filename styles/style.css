@@ -30,7 +30,7 @@
   z-index: 2;
   align-self: center;
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -248,7 +248,9 @@
   color: white;
 }
 
-.kaufman__trangle {
+.kaufman__triangle {
+  background-image: url("../images/kaufman-triangle.svg");
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -277,6 +279,10 @@
   justify-content: space-between;
 }
 
+.logo_place_footer {
+  height: 35px;
+}
+
 .footer__author {
   margin: 18px 0;
   color: white;
@@ -290,7 +296,7 @@
   color: white;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .footer__column-links {
